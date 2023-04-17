@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+0D3B66 - Blue
+FAF0CA - Tan
+F4D35E - Gold
+*/
+
+body {
+    margin: 5%;
+    background-color: #faf0ca;
+}
+
+h1, h2 {
+    color: #0d3b66;
+}
+
+blockquote {
+	font-size: 4em;
+    color: #0D3B66;
+}
+
+table {
+    padding: 0;
+}
+
+header {
+    margin: 2%;
+}
+
+nav {
+    background-color: #0D3B66;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+nav ul {
+    padding: 3%;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1em;
+}
+
+nav li a {
+    color: #f4d35e;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+p {
+	text-align: center;
+}
