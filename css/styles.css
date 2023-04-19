@@ -10,8 +10,14 @@ F4D35E - Gold
 */
 
 body {
-    margin: 5%;
-    background-color: #faf0ca;
+	background-image: linear-gradient(#F4D35E, #FAF0CA);
+}
+
+div {
+	margin: 1%;
+	padding: 3%;
+	background-image: linear-gradient(#F4D35E, #FAF0CA 80%);
+	border: solid .1em #FFF;
 }
 
 h1, h2 {
@@ -19,8 +25,13 @@ h1, h2 {
 }
 
 blockquote {
-	font-size: 4em;
-    color: #0D3B66;
+	font-size: 5em;
+    color: #000;
+	position: absolute;
+	margin-left: 37%;
+	margin-top: 5%;
+	z-index: 1;
+	font-family: 'Chivo Mono', monospace;
 }
 
 table {
@@ -28,13 +39,16 @@ table {
 }
 
 header {
-    margin: 2%;
+	padding: 200px 0px;
+	background-image: linear-gradient(#0D3B66CC 30%, transparent);
+	margin-bottom: 16em;
 }
 
 nav {
     background-color: #0D3B66;
 	text-align: center;
-	font-size: 1.5em;
+	margin: 0 2%;
+	padding: 200px 0px;
 }
 
 nav ul {
@@ -43,17 +57,93 @@ nav ul {
 
 nav li {
     display: inline-block;
-    font-size: 1em;
+	padding: 10px;
 }
 
 nav li a {
     color: #f4d35e;
+    font-size: 3em;
+	text-decoration: none;
+	font-family: 'Rajdhani', sans-serif;
 }
 
 nav li a:hover {
     color: white;
 }
 
+container {
+	width: 80%;
+	position: relative;
+	margin: 0 auto;
+}
+
 p {
+	font-family: 'Cutive Mono', monospace;
+	font-size: 1.5em;
+	padding: 1em;
+}
+
+#one, #three {
+	text-align: right;
+	padding-left: 45%;
+	padding-right: 10em;
+	display: block;
+	background-color: #F4D35E;
+}
+
+
+#two {
+	text-align: left;
+	padding-right: 45%;
+	padding-left: 10em;
+	background-color: #0D3B66CC;
+}
+
+#fNav {
+	margin-top: 10em;
+	padding: 3em;
+	font-size: 1em;
+}
+
+h5 {
 	text-align: center;
+}
+
+button {
+	width: 85%;
+	height: 5%;
+	padding: 1%;
+	border-radius: 2em;
+	font-size: 1.5em;
+	font-family: 'Cutive Mono', monospace;
+	margin-bottom: 20%;
+	margin-top: 1%;
+	margin-left: 7%;
+	border: none;
+}
+
+#b1, #b3 {
+	background-color: #0D3B66;
+}
+
+#b1 a, #b3 a {
+	color: #F4D35E;
+	text-decoration: none;
+}
+
+#b1:hover, #b3:hover {
+	background-color: #0d3b66cc;
+}
+
+#b2 {
+	background-color: #F4D35E;
+}
+
+#b2 a {
+	color: #0D3B66;
+	text-decoration: none;
+}
+
+#b2:hover {
+	background-color: #F4D35Ecc;
 }
