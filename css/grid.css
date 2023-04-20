@@ -1,7 +1,64 @@
 .parent {
-display: grid;
-grid-template-columns: repeat(3, 10em);
-grid-template-rows: 15em;
-grid-column-gap: 30px;
-grid-row-gap: 0px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 15em;
+	grid-column-gap: 2em;
+	grid-row-gap: 1em;
+}
+
+.child {
+	width: 25em;
+	height: 30em;
+	margin: 0 auto;
+	border-radius: 10em;
+}
+
+.childTxt {
+	text-align: center;
+}
+
+.child2 {
+	width: 10em;
+	height: 3em;
+	margin: 0 auto;
+}
+
+.child2:hover {
+	background-color: #ffffff99;
+}
+
+.child2 a {
+	color: #000;
+	text-decoration: none;
+}
+
+/*_____________________________________________________*/
+
+
+.parent2 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 15em;
+	grid-column-gap: 3em;
+	grid-row-gap: 1em;
+}
+
+.child3 {
+	width: 20em;
+	height: 20em;
+	margin: 2% auto;
+}
+
+.child4 {
+	width: 20em;
+	height: 20em;
+	margin: 30% auto;
+	text-align: center;
+	font-family: 'Cutive Mono', monospace;
+	color: #0D3B66;
+	font-size: 1.1em;
+}
+
+.child5 {
+	
 }
