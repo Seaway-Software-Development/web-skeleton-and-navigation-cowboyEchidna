@@ -13,7 +13,7 @@ body {
 	background-image: linear-gradient(#F4D35E, #FAF0CA);
 }
 
-div {
+#homePage {
 	margin: 1%;
 	padding: 3%;
 	background-image: linear-gradient(#F4D35E, #FAF0CA 80%);
@@ -24,14 +24,24 @@ h1, h2 {
     color: #0d3b66;
 }
 
+#home {
+	margin-left: 37%;
+}
+
+#contact {
+	margin-left: 20%;
+}
+
+
 blockquote {
 	font-size: 5em;
     color: #000;
 	position: absolute;
-	margin-left: 37%;
 	margin-top: 5%;
 	z-index: 1;
 	font-family: 'Chivo Mono', monospace;
+	display: block;
+	text-align: center;
 }
 
 table {
@@ -42,6 +52,7 @@ header {
 	padding: 200px 0px;
 	background-image: linear-gradient(#0D3B66CC 30%, transparent);
 	margin-bottom: 16em;
+	text-align: center;
 }
 
 nav {
@@ -116,7 +127,7 @@ button {
 	border-radius: 2em;
 	font-size: 1.5em;
 	font-family: 'Cutive Mono', monospace;
-	margin-bottom: 20%;
+	margin-bottom: 10%;
 	margin-top: 1%;
 	margin-left: 7%;
 	border: none;
@@ -147,3 +158,46 @@ button {
 #b2:hover {
 	background-color: #F4D35Ecc;
 }
+
+iframe {
+	margin-bottom: 10%;
+}
+
+#content4 {
+	text-align: center;
+}
+
+#contactInfo {
+	background-color: #0D3B66;
+	color: #F4D35E;
+	margin-bottom: 10%;
+}
+
+#contactInfo a {
+	color: #F4D35E;
+}
+
+#contactInfo a:hover {
+	color: white;
+}
+
+form {
+	font-size: 2em;
+	display: block;
+	margin-left: 3.5%;
+}
+
+#submit, #reset {
+	font-size: .5em;
+}
+
+#submit {
+	margin-left: 43%;
+	margin-bottom: 2%;
+}
+
+input {
+	padding: .5%;
+}
+
+

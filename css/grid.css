@@ -1,0 +1,7 @@
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 10em);
+grid-template-rows: 15em;
+grid-column-gap: 30px;
+grid-row-gap: 0px;
+}
