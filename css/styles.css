@@ -25,20 +25,16 @@ h1, h2 {
 }
 
 #pageName {
-	margin-top: 10%;
-	margin-bottom: -20%;
+	margin: 20%;
 	font-size: 10em;
 	font-family: 'Chivo Mono', monospace;
+	display: block;
+	text-align: center;
 }
 
 #home {
 	margin-left: 25%;
 }
-
-#contact {
-	margin-left: 20%;
-}
-
 
 blockquote {
 	font-size: 5em;
@@ -62,30 +58,30 @@ header {
 	text-align: center;
 }
 
-nav {
+ nav #hNav {
     background-color: #0D3B66;
 	text-align: center;
 	margin: 0 2%;
-	padding: 200px 0px;
+	padding: 0px;
 }
 
-nav ul {
+#hNav ul {
     padding: 3%;
 }
 
-nav li {
+#hNav li {
     display: inline-block;
 	padding: 10px;
 }
 
-nav li a {
+#hNav li a {
     color: #f4d35e;
     font-size: 3em;
 	text-decoration: none;
 	font-family: 'Rajdhani', sans-serif;
 }
 
-nav li a:hover {
+#hNav li a:hover {
     color: white;
 }
 
@@ -115,6 +111,34 @@ p {
 	padding-right: 45%;
 	padding-left: 10em;
 	background-color: #0D3B66CC;
+}
+
+#c1 {
+	margin-top: 20%;
+	text-align: left;
+}
+
+#c2 {
+	text-align: center;
+	margin: 5em;
+	background-color: #0D3B66CC;
+	border-radius: 10px;
+	padding: 2em;
+}
+
+#c2 h2 {
+	color: #000;
+}
+
+#c1, #c3 {
+	background-color: #F4D35E;
+	border-radius: 10px;
+	padding: 2em;
+}
+
+#c3 {
+	margin-bottom: 10%;
+	text-align: right;
 }
 
 #fNav {
@@ -177,7 +201,7 @@ iframe {
 #contactInfo {
 	background-color: #0D3B66;
 	color: #F4D35E;
-	margin-bottom: 10%;
+	margin: 10%;
 }
 
 #contactInfo a {
@@ -188,9 +212,6 @@ iframe {
 	color: white;
 }
 
-footer {
-	margin-top: 30%;
-}
 
 #submit, #reset {
 	font-size: .5em;
@@ -217,4 +238,31 @@ input {
 
 #credit {
 	text-align: center;
+}
+
+#fNav {
+	text-align: center;
+	margin: 0 2%;
+	padding: 2%;
+	background-color: #0D3B66;
+}
+
+#fNav ul {
+    padding: 3%;
+}
+
+#fNav li {
+    display: inline-block;
+	padding: 1em;
+}
+
+#fNav li a {
+    color: #f4d35e;
+    font-size: 3em;
+	text-decoration: none;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+#fNav li a:hover {
+    color: white;
 }
